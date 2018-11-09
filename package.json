@@ -1,13 +1,13 @@
 {
-  "name": "candour-font-families-converter",
-  "version": "1.0.0",
+  "name": "candour-font-families",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "author": "Domas Bitvinskas <domas.bitvinskas@me.com>",
   "license": "MIT",
-  "homepage": "https://github.com/candourpro/font-families-converter",
+  "homepage": "https://github.com/candourpro/font-families",
   "repository": {
     "type": "git",
-    "url": "git://github.com/candourpro/font-families-converter.git"
+    "url": "git://github.com/candourpro/font-families.git"
   },
   "scripts": {
     "build": "BABEL_ENV=production babel index.js -d dist"
