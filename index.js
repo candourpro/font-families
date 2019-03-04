@@ -1,8 +1,8 @@
 import _ from 'lodash'
 
-export default {
-  match: ({ fontFamilies }, value, key) => (
-    fontFamilies && value && key === 'fontFamily' && _.has(fontFamilies, value)
+export default (config) => ({
+  match: (_theme, value, key) => (
+    config && value && key === 'fontFamily' && _.has(config, value)
   ),
-  value: ({ fontFamilies }, value) => fontFamilies[value],
-}
+  value: (_theme, value) => config[value],
+})
